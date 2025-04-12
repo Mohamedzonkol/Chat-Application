@@ -4,7 +4,7 @@ namespace API.Models
 {
     public class AppUser : IdentityUser
     {
-        public sbyte? FullName { get; set; }
+        public string? FullName { get; set; }
         public string? ProfileImage { get; set; }
     }
 }
