@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|solutionrelative:api\\endpoints\\accountendpoint.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|c:\\users\\lenovo\\onedrive\\desktop\\graduation-prroject\\new project\\chat\\chat-api\\api\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|solutionrelative:api\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|c:\\users\\lenovo\\onedrive\\desktop\\graduation-prroject\\new project\\chat\\chat-api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|c:\\users\\lenovo\\onedrive\\desktop\\graduation-prroject\\new project\\chat\\chat-api\\api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|solutionrelative:api\\dto\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|c:\\users\\lenovo\\onedrive\\desktop\\graduation-prroject\\new project\\chat\\chat-api\\api\\services\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|solutionrelative:api\\services\\tokenservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|c:\\users\\lenovo\\onedrive\\desktop\\graduation-prroject\\new project\\chat\\chat-api\\api\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|solutionrelative:api\\dto\\registerrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D9F1DE1-645D-473A-8CDC-8E98A19C28F4}|API\\API.csproj|c:\\users\\lenovo\\onedrive\\desktop\\graduation-prroject\\new project\\chat\\chat-api\\api\\services\\fileuploadservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -46,7 +54,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 11,
           "Children": [
             {
               "$type": "Bookmark",
@@ -74,13 +82,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
+              "Title": "LoginDto.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Dto\\LoginDto.cs",
+              "RelativeDocumentMoniker": "API\\Dto\\LoginDto.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Dto\\LoginDto.cs",
+              "RelativeToolTip": "API\\Dto\\LoginDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:46:45.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TokenServices.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Services\\TokenServices.cs",
+              "RelativeDocumentMoniker": "API\\Services\\TokenServices.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Services\\TokenServices.cs",
+              "RelativeToolTip": "API\\Services\\TokenServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAwwBIAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:40:24.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "RegisterRequest.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Dto\\RegisterRequest.cs",
               "RelativeDocumentMoniker": "API\\Dto\\RegisterRequest.cs",
               "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Dto\\RegisterRequest.cs",
               "RelativeToolTip": "API\\Dto\\RegisterRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-12T18:19:11.423Z",
               "EditorCaption": ""
@@ -88,6 +122,45 @@
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "FileUploadService.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Services\\FileUploadService.cs",
+              "RelativeDocumentMoniker": "API\\Services\\FileUploadService.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Services\\FileUploadService.cs",
+              "RelativeToolTip": "API\\Services\\FileUploadService.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T18:04:58.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T16:29:37.015Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AccountEndpoint.cs",
+              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Endpoints\\AccountEndpoint.cs",
+              "RelativeDocumentMoniker": "API\\Endpoints\\AccountEndpoint.cs",
+              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Endpoints\\AccountEndpoint.cs",
+              "RelativeToolTip": "API\\Endpoints\\AccountEndpoint.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAADkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T16:51:41.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "20250412174719_initial.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Migrations\\20250412174719_initial.cs",
               "RelativeDocumentMoniker": "API\\Migrations\\20250412174719_initial.cs",
@@ -100,7 +173,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Response.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Comman\\Response.cs",
               "RelativeDocumentMoniker": "API\\Comman\\Response.cs",
@@ -113,46 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "AccountEndpoint.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Endpoints\\AccountEndpoint.cs",
-              "RelativeDocumentMoniker": "API\\Endpoints\\AccountEndpoint.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Endpoints\\AccountEndpoint.cs",
-              "RelativeToolTip": "API\\Endpoints\\AccountEndpoint.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAACoAAAAdAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T16:51:41.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Program.cs",
-              "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Program.cs",
-              "RelativeToolTip": "API\\Program.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAAACUAAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T16:29:37.015Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "FileUploadService.cs",
-              "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Services\\FileUploadService.cs",
-              "RelativeDocumentMoniker": "API\\Services\\FileUploadService.cs",
-              "ToolTip": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Services\\FileUploadService.cs",
-              "RelativeToolTip": "API\\Services\\FileUploadService.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAiwAYAAABgAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-12T18:04:58.729Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "AppUser.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Models\\AppUser.cs",
               "RelativeDocumentMoniker": "API\\Models\\AppUser.cs",
@@ -165,7 +199,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "AppDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\Data\\AppDbContext.cs",
               "RelativeDocumentMoniker": "API\\Data\\AppDbContext.cs",
@@ -178,7 +212,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "API",
               "DocumentMoniker": "C:\\Users\\Lenovo\\OneDrive\\Desktop\\Graduation-Prroject\\New Project\\Chat\\Chat-Api\\API\\API.csproj",
               "RelativeDocumentMoniker": "API\\API.csproj",
