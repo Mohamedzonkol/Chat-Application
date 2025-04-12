@@ -2,6 +2,7 @@ using API.Data;
 using API.Endpoints;
 using API.Models;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Http.Features;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -30,14 +31,14 @@ builder.Services.AddAuthentication(opt =>
         ValidateAudience = false
     };
 });
-;
-
-
 
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.Configure<FormOptions>(options =>
+{
+    options.MultipartBodyLengthLimit = 10 * 1024 * 1024; // for example: 10 MB
+});
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
