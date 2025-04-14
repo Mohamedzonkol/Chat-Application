@@ -6,6 +6,7 @@ namespace API.Data
 {
     public class AppDbContext(DbContextOptions<AppDbContext> options) : IdentityDbContext<AppUser>(options)
     {
+        public DbSet<Messages> Messages { get; set; }
         protected override void OnModelCreating(ModelBuilder builder)
         {
             base.OnModelCreating(builder);

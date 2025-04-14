@@ -42,7 +42,8 @@ namespace API.Endpoints
                         result.Errors.FirstOrDefault()?.Description));
                 }).DisableAntiforgery();
 
-            group.MapPost("/login", async (UserManager<AppUser> userManager, TokenServices tokenServices, LoginDto request) =>
+            group.MapPost("/login",
+                async (UserManager<AppUser> userManager, TokenServices tokenServices, LoginDto request) =>
             {
                 var user = await userManager.FindByEmailAsync(request.Email);
                 if (user == null)
