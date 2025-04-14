@@ -2,6 +2,7 @@
 using API.Dto;
 using API.Extensions;
 using API.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.SignalR;
 using Microsoft.EntityFrameworkCore;
@@ -9,6 +10,7 @@ using System.Collections.Concurrent;
 
 namespace API.Hubs
 {
+    [Authorize]
     public class ChatHub(UserManager<AppUser> userManager, AppDbContext context) : Hub
     {
         public static readonly ConcurrentDictionary<string, OnlineUserDto>

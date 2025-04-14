@@ -1,8 +1,10 @@
 ﻿using API.Comman;
 using API.Dto;
+using API.Extensions;
 using API.Models;
 using API.Services;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 
 namespace API.Endpoints
 {
@@ -44,21 +46,34 @@ namespace API.Endpoints
 
             group.MapPost("/login",
                 async (UserManager<AppUser> userManager, TokenServices tokenServices, LoginDto request) =>
-            {
-                var user = await userManager.FindByEmailAsync(request.Email);
-                if (user == null)
                 {
-                    return Results.BadRequest(Response<string>.Failure("User not found"));
-                }
-                var result = await userManager.CheckPasswordAsync(user, request.Password);
-                if (!result)
-                {
-                    return Results.BadRequest(Response<string>.Failure("Invalid password"));
-                }
+                    var user = await userManager.FindByEmailAsync(request.Email);
+                    if (user == null)
+                    {
+                        return Results.BadRequest(Response<string>.Failure("User not found"));
+                    }
 
-                var token = tokenServices.GenerateToken(user.Id, user.UserName);
-                return Results.Ok(Response<string>.Success(token, "Login successful"));
-            });
+                    var result = await userManager.CheckPasswordAsync(user, request.Password);
+                    if (!result)
+                    {
+                        return Results.BadRequest(Response<string>.Failure("Invalid password"));
+                    }
+
+                    var token = tokenServices.GenerateToken(user.Id, user.UserName);
+                    return Results.Ok(Response<string>.Success(token, "Login successful"));
+                });
+
+            group.MapGet("/me", async (HttpContext context, UserManager<AppUser> userManager) =>
+            {
+                var currentlofinUserId = context.User.GetUserId();
+                var loginUser =
+                    await userManager.Users.SingleOrDefaultAsync(x => x.Id == currentlofinUserId.ToString());
+                if (loginUser != null)
+                    return Results.Ok(Response<AppUser>.Success(loginUser, "User Fetched Successful"));
+                return Results.BadRequest(Response<AppUser>.Failure("User not found"));
+            }).RequireAuthorization();
+
+
             return group;
         }
     }
